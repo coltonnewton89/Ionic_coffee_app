@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .main {
+    max-width: 350px;
+    margin: 20px auto;
+  }
+  ul.brew-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul.brew-list li {
+    margin: 10px 0;
+  }
+  span.delete-button {
+    background-color: red;
+    color: white;
+    padding: 3px;
+    float: right;
+  }
+  span.delete-button:hover {
+    cursor: pointer;
+  }
+  .form-div {
+    text-align: center;
+  }
+  .form-div input {
+    width: 250px;
+  }
+
+  .checkOutBtn{
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    font-size: 120%;
+    background-color: rgb(46, 7, 7);
+    height: 150%;
+  }
