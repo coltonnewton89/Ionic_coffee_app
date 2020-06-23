@@ -8,7 +8,7 @@ class Segment extends Component {
         return ( 
               
                   
-        <div style={{marginTop:'10%', zIndex:2}}>
+        <div style={{marginTop:'15%', zIndex:2}}>
           <IonSegment onIonChange={e => console.log('Segment selected', e.detail.value)}>
             
             <NavLink to='/Home/Coffee'>

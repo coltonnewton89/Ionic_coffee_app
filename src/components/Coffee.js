@@ -31,18 +31,11 @@ function Coffee(props) {
         });
         _coffeeValue('');
         _coffeeFlavorValue('')
-    }
-
-    if(coffeevalue != ''){
-        console.log(coffeevalue)
-    }
-
-    if(coffeeFlavorValue != ''){
-        console.log(coffeeFlavorValue)
+        alert('We recieved your order! When finished, please Navigate to Your Orders to check out!')
     }
   
     return (
-        <div className="container">
+        <div className="container" style={{marginTop:'12%'}}>
             <div className="size">
             <FormControl component="fieldset">
         <FormLabel component="legend"><h3>Size</h3></FormLabel>

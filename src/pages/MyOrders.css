@@ -22,7 +22,7 @@
     background-color: red;
     color: white;
     padding: 3px;
-    float: right;
+    margin-left: 10px;
   }
   span.delete-button:hover {
     cursor: pointer;

@@ -64,20 +64,15 @@ export default function ButtonAppBar() {
         <h3>Brew Menu</h3>
         <NavLink exact to='/Home' className='navLink' activeClassName='activeRoute' activeStyle={{color: 'orange'}}>
             <ListItem>
-            <ListItemText primary='Home' />
+            <ListItemText primary='Order' />
             </ListItem>
         </NavLink>
 
         <NavLink to='/MyOrders' className='navLink' activeClassName='activeRoute' activeStyle={{color: 'orange'}}>
             <ListItem>
-            <ListItemText primary='My Orders' />
+            <ListItemText primary='Your Orders' />
             </ListItem>
-        </NavLink>
-
-        <ListItem>
-        <ListItemText primary='Log Out'/>
-        </ListItem>
-          
+        </NavLink>          
       </List>
     </div>
   );
@@ -89,8 +84,8 @@ export default function ButtonAppBar() {
           {
             ['left'].map((anchor)=>(
               <React.Fragment>
-            <IconButton edge="start" style={{zIndex:2}} className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon onClick={toggleDrawer(anchor, true)}/>
+            <IconButton onClick={toggleDrawer(anchor, true)} edge="start" style={{zIndex:2}} className={classes.menuButton} color="inherit" aria-label="menu">
+            <MenuIcon/>
           </IconButton>
           <SwipeableDrawer
             anchor={anchor}

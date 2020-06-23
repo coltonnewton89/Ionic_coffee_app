@@ -32,7 +32,7 @@ const Tea=(props)=> {
         });
         setValue('');
         setFlavorValue('')
-
+        alert('We recieved your order! When finished, please Navigate to Your Orders to check out!')
     }
 
     if(value != ''){
@@ -44,7 +44,7 @@ const Tea=(props)=> {
     }
   
     return (
-        <div className="container">
+        <div className="container"  style={{marginTop:'12%'}}>
             <div className="size">
             <FormControl component="fieldset">
         <FormLabel component="legend"><h3>Size</h3></FormLabel>

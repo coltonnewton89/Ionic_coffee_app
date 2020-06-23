@@ -27,7 +27,7 @@ function Treats(props) {
           complete: false
         });
         _treatValue('');
-        
+        alert('We recieved your order! When finished, please Navigate to Your Orders to check out!')        
     }
 
 
